@@ -408,6 +408,12 @@ Entry Time        : ${formattedDate} (Multi-dimensional synchronized)
                 <Clock className="h-5 w-5 text-gray-500" />
                 <span className="text-sm font-medium">{formatTimeWithSeconds(currentTime)}</span>
               </div>
+              <Link href="/otc-signals">
+                <Button variant="outline" size="sm" className="bg-blue-600 text-white border-none hover:bg-blue-700">
+                  <Clock className="h-4 w-4 mr-2" />
+                  OTC Signals
+                </Button>
+              </Link>
               <Link href="/ethereal-signals">
                 <Button
                   variant="outline"
